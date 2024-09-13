@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.board {
+  padding: 20px;
+}
+
+#player-setup {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.game-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.game-table td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.cell {
+  background-color: lightblue;
+}
+
+#battleship {
+  position: absolute;
+  top: 50px; /* Initial positioning */
+  left: 50px;
+  width: 80px;
+  height: auto;
+  cursor: grab;
+}
+
+#battleship:active {
+  cursor: grabbing;
+}
